@@ -600,8 +600,10 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -0.75rem;
+ margin-right: -0.75rem;
   margin-left: -0.75rem;
+
+ 
 }
 
 .no-gutters {
@@ -10092,7 +10094,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10385,6 +10387,8 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  margin-left:auto;
+  margin-right: auto;
 }
 .team-member img {
   width: 14rem;
