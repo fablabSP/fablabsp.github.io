@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>SP Fablab</title>
+        <title>Fablab SP</title>
         <link rel="icon" type="image/x-icon" href="assets/img/icon.gif" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
@@ -16,12 +16,24 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+	
+	<script>
+		function redirectFunc() {
+		  var txt;
+		  if (confirm("Notice: Booking of equipment in Fablab is for SP Fulltime student and staff only. If you are a SP student, please make sure you are connected to SP network.")) {
+			window.location.href = "http://fablab.sp.edu.sg/";
+		  } else {
+			
+		  };
+		}
+	</script>
+	
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" /></a>-->
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+				<a onclick="redirectFunc()" href ="#" ><img  style="width:128px; height:64px" src="assets/img/book.png" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Lab & Equipment</a></li>
@@ -52,8 +64,8 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">T11C</h4>
-                        <p class="text-muted">
+                        <h4 class="my-3">Fablab @ T11C</h4>
+                        <p class="text-muted" style="text-align:left">
 							<ul>2D Laser cutting</ul>
 							<ul>CNC Milling</ul>
 							<ul>Wood working</ul>
@@ -61,8 +73,8 @@
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">T1442</h4>
-                        <p class="text-muted">
+                        <h4 class="my-3">Fablab @ T1442</h4>
+                        <p class="text-muted" style="text-align:left">
 							<ul>3D printers</ul>
 							<ul>Soldering workstation</ul>
 							<ul>PCB milling</ul>
@@ -71,13 +83,14 @@
 							<ul>Emboridery</ul>
 							<ul>Vinyl Cutting</ul>
 							<br>
-							<a href="https://www.thinglink.com/video/1256473633178517505" target="_blank">View lab in Thinglink!</a>
+							<ul><a href="https://www.thinglink.com/video/1256473633178517505" target="_blank"><img style="width:100px; height:100px;" src="assets/img/logos/thinglink.png" alt="" /></a></ul>
+							
 							<p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
                         <h4 class="my-3">Makerspace @ Lib</h4>
-                        <p class="text-muted">
+                        <p class="text-muted" style="text-align:left">
 							<ul>2D Laser cutting</ul>
 							<ul>3D printers</ul>
 							<ul>Soldering workstation</ul>
@@ -93,7 +106,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Projects that we have done</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -188,7 +201,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">History on Fablab @ SP</h3>
                 </div>
                 <ul class="timeline">
                     <li>
@@ -254,7 +267,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-4 mb-1">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Lee Chee Whye</h4>
                             <p class="text-muted">Centre Director</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -268,7 +281,7 @@
 					 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Rodney Dorville</h4>
                             <p class="text-muted">Senior Lecturer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -276,7 +289,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Steven Chew</h4>
                             <p class="text-muted">Senior Lecturer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -285,7 +298,7 @@
                 
 				   <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Mark Ng</h4>
                             <p class="text-muted">Assistant Manager</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -295,7 +308,7 @@
 			    <div class="row">
 				   <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Walter Chan</h4>
                             <p class="text-muted">Senior Technical Executive</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -304,7 +317,7 @@
                
 				   <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Louis Goh</h4>
                             <p class="text-muted">Lead Technical Executive</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -313,7 +326,7 @@
                 
 				   <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/user.png" alt="" />
                             <h4>Yeo Gau Siong</h4>
                             <p class="text-muted">Technical Executive</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -387,7 +400,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                    <div class="col-lg-4 text-lg-left">Copyright © Fablab SP <script>document.write(new Date().getFullYear())</script> </div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
